@@ -26,7 +26,7 @@ Deliverable 1:
 ## Linear Regression to Predict MPG
 <p>The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file. Then, you’ll write a short interpretation of the multiple linear regression results in the README.md.</p>
 
-<img"https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%201%20%20step%205.png">
+<img src="https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%201%20%20step%205.png">
 
 <b>1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?</b>
 The <b>vehicle_length</b> and the <b>ground_clearance</b> both provide a non-random amount of variance to the mpg value. 
@@ -50,7 +50,7 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
   <li>The suspension coil’s PSI continuous variable across all manufacturing lots</li>
   <li>The following PSI metrics for each lot: mean, median, variance, and standard deviation.</li>
   </ul>
-<img"https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%202%20Step%203.png">
+<img src="https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%202%20Step%203.png">
 
 <b>The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?</b>
 
@@ -65,13 +65,13 @@ Deliverable 3:
 We used t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. Here we can see a true mean of 1498.78 and p-value = 1. Though this is higher than the common significance level of 0.05, we do not have enough evedance to support rejecting the null hypothesis. 
 
 We then confrimed that there is not statistical difference between Lot1 and Lot2 with a mean of 1500 and 1500.2. Then Lot3 does show a statistical difference with a mean of 1496.14 verses the population mean of 1500 PSI.
-<image "https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%201.png">
+<image src="https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%201.png">
 
-<image "https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%202a.png">
+<image src="https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%202a.png">
 
-<image "https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%202b.png">
+<image src="https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%202b.png">
 
-<image "https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%202c.png">
+<image src="https://github.com/kellynichols99/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable%203%20Step%202c.png">
 
 Deliverable 4:
 ## Study Design: MechaCar vs Competition
@@ -88,7 +88,7 @@ I would like to have additioanl data from compairable manufacturers and vehicals
 <b>Hypothesis</b>
 MechaCar is able to provide a compairable fuel economy to other vehicles of a simular weight and fuel type.
 <br>
-<b>statistical testing</b>
+<b>Statistical testing</b>
 A multiple linear regression should be used to determine the metrics that have the most significant correlation and predictability with the best fuel efficiency.
 <br>
 <b>Resources</b>
